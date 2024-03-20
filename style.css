@@ -229,7 +229,7 @@ input {
   flex: 1 1 30rem;
   box-shadow: 0.5rem 1.5rem rgb(227, 222, 222);
   border-radius: 0.5rem;
-  border: 0.1rem solid rgb(126, 123, 123);
+  /* border: 0.1rem solid rgb(126, 123, 123); */
   position: relative;
 }
 
@@ -248,12 +248,14 @@ input {
 .products .box-container .box .image {
   position: relative;
   text-align: center;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
+  border: hidden;
   overflow: hidden;
 }
 /*확인*/
 .products .box-container .box .image img {
   height: 25rem;
+  border: hidden;
 }
 /*확인*/
 .products .box-container .box:hover .image img {
@@ -380,14 +382,14 @@ input {
 }
 
 .footer .box-container .box h3 {
-  color: #333;
+  color: white; /*수정*/
   font-size: 2.5rem;
   padding: 1rem 0;
 }
 
 .footer .box-container .box a {
   display: block;
-  color: #333;
+  color: white; /*수정*/
   font-size: 1.5rem;
   padding: 1rem 0;
 }
@@ -397,7 +399,8 @@ input {
   text-decoration: underline;
 }
 
-.footer .box-container .box {
+.footer {
+  background-color: rgba(5, 26, 73, 0.877); /*수정*/
 }
 
 /*media queries*/

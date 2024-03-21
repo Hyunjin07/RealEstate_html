@@ -18,7 +18,7 @@ section {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 5rem;
-  background: rgba(5, 26, 73, 0.877);;
+  background: rgba(5, 26, 73, 0.877);
   color: #fff;
   padding: 0.9rem 3.5rem;
   cursor: pointer;
@@ -56,11 +56,11 @@ header.log span {
 header .navbar a {
   font-size: 2rem;
   padding: 0 1.5rem;
-  color: #666;
+  color: #fff;
 }
 
 header .nav a:hover {
-  color: var(--pink);
+  color: #333
 }
 
 .container_form {

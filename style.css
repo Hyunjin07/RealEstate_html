@@ -40,7 +40,7 @@ section {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 5rem;
-  background: #333;
+  background: rgba(5, 26, 73, 0.877);
   color: #fff;
   padding: 0.9rem 3.5rem;
   cursor: pointer;
@@ -56,7 +56,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background: #fff;
+  background: rgba(5, 26, 73, 0.877);
   padding: 2rem 9%;
   display: flex;
   align-items: center;
@@ -140,6 +140,35 @@ header .fa-bars {
   line-height: 1.5;
 }
 
+/* .container {
+  display: flex;
+  justify-content: center;
+  max-width: 1042px;
+} */
+
+.row_intro iframe {
+  width: 50%;
+  height: 70%;
+  float: left;
+  padding-right: 2%;
+}
+
+.row_intro {
+  /* display: flex;
+  justify-content: center; */
+  /* height: 800px; */
+  /* height: 300px;
+  margin: 0; */
+}
+
+/* .content h1 {
+  font-size: 25px;
+}
+
+.content h2 {
+  font-size: 18px;
+} */
+
 .about .row {
   display: flex;
   align-items: center;
@@ -212,7 +241,7 @@ input {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 5rem;
-  background: #333;
+  background: rgba(5, 26, 73, 0.877);
   color: #fff;
   padding: 0.9rem 3.5rem;
   cursor: pointer;

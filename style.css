@@ -339,7 +339,9 @@ input {
   padding-top: 1rem;
   text-decoration: line-through;
 }
-
+.explain p {
+  font-size: 15px;
+}
 .contact .row {
   display: flex;
   flex-wrap: wrap;

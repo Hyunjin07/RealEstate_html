@@ -78,7 +78,7 @@ header.log span {
 header .navbar a {
   font-size: 2rem;
   padding: 0 1.5rem;
-  color: #fff;
+  color: #333;
 }
 header .nav a:hover {
   color: #333;
